@@ -1,0 +1,8 @@
+POST https://robalax.com/user/login
+
+content-type: application/json
+
+{
+    "email": "saif@gmail.com",
+    "password": "admin123"
+}

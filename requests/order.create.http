@@ -1,0 +1,11 @@
+POST http://localhost:3003/order/add
+Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImVtYWlsIjoiYXplZW1AZ20uY29tIiwidXNlcmlkIjoiNjA1NzYyZGE1ZWM4NjA0Mzk0NTgzYjY5In0sImlhdCI6MTYxODc4MDMwMn0.lxtDjZA-Ta3oZYN48vS5M2V5ufATEwddQs9_PXkr4QQ`
+content-type: application/json
+{
+    products: [],
+    customer: "askdhkad",
+    total_amount: 5000,
+    discount: 0,
+    tax: 0,
+    order_note: "hello this is test"
+}
