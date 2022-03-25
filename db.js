@@ -16,23 +16,3 @@ db1.once("open", function () {
 });
 
 module.exports = mongoose;
-
-/**
- * -> services
- *  name
- *  price
- *  description
- * slug
- *
- * get list
- *
- * get single
- *
- * checkout api
- *  first name
- *  last name
- *  address
- *  country
- *  payment
- *
- */
